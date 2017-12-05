@@ -30,14 +30,14 @@
 自动下载授权文件
 自动修改配置文件
 已chattr +i /serverspeeder/etc/apx*禁止修改配置文件，可以不用加hosts了
-目前只支持CentOS，ubuntu和debian。如果有其他系统支持，可以到[91yun.org我的博客](http://www.91yun.org/serverspeeder91yun)手动下载其他系统的安装包
+目前只支持CentOS，ubuntu和debian。如果有其他系统支持，可以到手动下载其他系统的安装包
 
-service serverSpeeder start #启动
-service serverSpeeder stop #停止
-service serverSpeeder reload #重新加载配置
-service serverSpeeder restart #重启
-service serverSpeeder status #状态
-service serverSpeeder stats #统计
-service serverSpeeder renewLic #更新许可文件
-service serverSpeeder update #更新
-chattr -i /serverspeeder/etc/apx* && /serverspeeder/bin/serverSpeeder.sh uninstall -f #卸载
+* service serverSpeeder start #启动
+* service serverSpeeder stop #停止
+* service serverSpeeder reload #重新加载配置
+* service serverSpeeder restart #重启
+* service serverSpeeder status #状态
+* service serverSpeeder stats #统计
+* service serverSpeeder renewLic #更新许可文件
+* service serverSpeeder update #更新
+* chattr -i /serverspeeder/etc/apx* && /serverspeeder/bin/serverSpeeder.sh uninstall -f #卸载
